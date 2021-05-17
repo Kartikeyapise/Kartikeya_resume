@@ -18,3 +18,7 @@ body {
 .my_navbar a:active {
   color: blueviolet;
 }
+
+.decrease_font {
+  font-size: 0.7rem;
+}
