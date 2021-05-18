@@ -6,9 +6,9 @@ body {
     "Helvetica Neue", Arial, sans-serif;
   margin: 0%;
   box-sizing: border-box;
-  background-image: url("./img/background1.jpg");
+  background-image: url("./img/background7.jpg");
   background-size: 100% 100%;
-  background-repeat: repeat-y;
+  /* background-repeat: repeat-y; */
   /* background-repeat: repeat-x; */
 }
 
@@ -25,8 +25,24 @@ body {
 }
 
 #about_me {
-  background-color: #e3f2fd;
-  background-image: url("./img/coding.jpg");
+  background-color: #000000;
+  /* background-image: url("./img/coding.jpg"); */
   border: 2px solid black;
   border-radius: 10px;
+}
+#about_me:hover {
+  background-image: none;
+  background-color: #000000;
+  cursor: pointer;
+  /* padding: 0.1em; */
+}
+
+#other:hover,
+#frontend:hover,
+#backend:hover,
+#database:hover,
+#courses_completed:hover {
+  /* padding: 0.6em !important; */
+  background-color: #000000;
+  cursor: pointer;
 }
