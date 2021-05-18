@@ -17,3 +17,7 @@ body {
 .decrease_font {
   font-size: 0.7em;
 }
+
+.increase_font {
+  font-size: 1em;
+}
