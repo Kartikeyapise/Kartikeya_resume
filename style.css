@@ -37,6 +37,7 @@ body {
   /* padding: 0.1em; */
 }
 
+#aws:hover,
 #other:hover,
 #frontend:hover,
 #backend:hover,
@@ -45,4 +46,16 @@ body {
   /* padding: 0.6em !important; */
   background-color: #000000;
   cursor: pointer;
+}
+
+.thick-font {
+  font-weight: bold;
+}
+
+.black-font {
+  color: black;
+}
+
+.white-font {
+  color: white;
 }
